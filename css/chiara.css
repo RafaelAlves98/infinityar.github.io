@@ -110,7 +110,7 @@ html, body {
   align-items: center;
   min-height: 80vh;
   background-color: #e9ecef; /* Cor de fundo da imagem */
-  padding: 10px; /* Reduzido ainda mais */
+  padding: 18px; /* Reduzido ainda mais */
   
 }
 
@@ -135,7 +135,7 @@ html, body {
 /* Estilizando o formulário */
 .s-contact form {
   background: #fff;
-  padding: 10px; /* Reduzido ainda mais */
+  padding: 18px; /* Reduzido ainda mais */
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   width: 100%;
