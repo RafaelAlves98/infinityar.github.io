@@ -1,0 +1,261 @@
+.about_maior{
+    background-color: rgb(195, 200, 204);
+    display: flex; /* Torna o container um flex container */
+    justify-content: space-between; /* Alinha os itens horizontalmente, com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra interna */
+    padding: 60px;
+}
+.about_us{
+    margin-top: 20px;
+    background-color: rgb(0, 65, 139);
+    border-radius: 15px;
+    height: 315px;
+}   
+
+.about_us h2, .about_us p{
+    color: aliceblue;
+}
+
+.beneficios_conteiner {
+    display: flex; /* Torna o container um flex container */
+    justify-content: space-between; /* Alinha os itens horizontalmente com espaço entre eles */
+    background-color: rgb(0, 65, 139); /* Cor de fundo para visualização */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .beneficios_text, .beneficios_img {
+    width: 45%; /* Ajuste a largura conforme necessário */
+    padding: 10px; /* Espaçamento interno */
+    
+  }
+
+  .beneficios_text h3, .beneficios_text p{
+    color: aliceblue;
+    
+  }
+
+  .beneficios_img{
+    display: flex;
+    align-items: center;
+    width: 60%;
+  } 
+  
+  .btn-top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .btn-top-right {
+        top: 10px;
+        right: 10px;
+        
+    }
+
+    .btn-top-right .s-btn {
+        padding: 0.6em 1.2em;
+        font-size: 0.9em;
+    }
+}
+.btn-top-right .s-btn {
+    color: #003366; /* Azul escuro */
+    background-color: transparent;
+  border: none;
+
+}
+.btn-top-right {
+    position: absolute;
+    top: 20px; /* valor ajustado para descer o botão */
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #2674c3; /* azul escuro */
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.btn-top-right .s-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0;
+    
+}
+
+.btn-top-right .s-btn:hover {
+    text-decoration: underline;
+}
+
+
+/* Formulário de Contato - Infinity AR */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+/* Estilizando a seção pai para centralizar o formulário */
+.s-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e9ecef; /* Cor de fundo da imagem */
+  padding: 10px; /* Reduzido ainda mais */
+  
+}
+
+/* Ajustando o layout da row e column */
+.s-contact .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.s-contact .column.lg-12 {
+  text-align: center;
+  margin-bottom: 10px; /* Reduzido ainda mais */
+}
+
+.s-contact .column.lg-6 {
+  width: 50%;
+  max-width: 600px; /* Mantém a largura máxima do formulário */
+}
+
+/* Estilizando o formulário */
+.s-contact form {
+  background: #fff;
+  padding: 10px; /* Reduzido ainda mais */
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Reduzido para o mínimo */
+  
+}
+
+/* Estilizando os labels */
+.s-contact form label {
+  font-size: 16px; /* Mantido o tamanho original */
+  color: #333;
+}
+
+/* Estilizando os inputs e textarea */
+.s-contact form input,
+.s-contact form textarea {
+  width: 100%;
+  padding: 6px; /* Reduzido ainda mais */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Cor de fundo dos campos */
+  font-size: 16px; /* Mantido o tamanho original */
+  box-sizing: border-box;
+}
+
+.s-contact form textarea {
+  height: 80px; /* Reduzido ainda mais */
+  resize: none;
+}
+
+/* Estilizando o botão */
+.s-contact form button.s-btn.s-btn--primary {
+  background-color: #083f88; /* Cor do botão da imagem */
+  color: #fff;
+  padding: 0 15px; /* Reduzido ainda mais */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+  font-size: 16px; /* Mantido o tamanho original */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .s-contact form {
+      padding: 8px; /* Reduzido ainda mais */
+  }
+}
+
+.s-contact label {
+  font-weight: 600;
+  margin-bottom: 5px; /* Reduzido ainda mais */
+  color: #333;
+  
+}
+
+.s-contact input,
+.s-contact textarea {
+  font-size: 16px; /* Mantido o tamanho original */
+  padding: 5px; /* Reduzido ainda mais */
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; /* Reduzido ainda mais */
+  transition: border-color 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.s-contact input:focus,
+.s-contact textarea:focus {
+  border-color: #003f91;
+  outline: none;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+
+.s-contact button.s-btn--primary {
+  padding: 0 6px; /* Reduzido ainda mais */
+  font-size: 16px; /* Mantido o tamanho original */
+  border-radius: 2px;
+  background-color: #083f88;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.s-contact button.s-btn--primary:hover {
+  background-color: #002e6d;
+}
+
+.form-message {
+  margin-bottom: 8px; /* Reduzido ainda mais */
+  padding: 6px; /* Reduzido ainda mais */
+  border-radius: 5px;
+  display: none;
+  font-size: 14px; /* Mantido o tamanho original */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-line;
+}
+
+.form-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  display: block;
+}
+
+.form-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  display: block;
+}
+
+.s-contact input:focus,
+.s-contact textarea:focus {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
