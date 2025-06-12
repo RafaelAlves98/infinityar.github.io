@@ -108,7 +108,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: #e9ecef; /* Cor de fundo da imagem */
   padding: 10px; /* Reduzido ainda mais */
   
@@ -141,7 +141,7 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 5px; /* Reduzido para o mínimo */
+  gap: 15px; /* Reduzido para o mínimo */
   
 }
 
@@ -155,7 +155,7 @@ html, body {
 .s-contact form input,
 .s-contact form textarea {
   width: 100%;
-  padding: 6px; /* Reduzido ainda mais */
+  padding: 10px; /* Reduzido ainda mais */
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f5f5f5; /* Cor de fundo dos campos */
@@ -164,7 +164,7 @@ html, body {
 }
 
 .s-contact form textarea {
-  height: 80px; /* Reduzido ainda mais */
+  height: 100px; /* Reduzido ainda mais */
   resize: none;
 }
 
@@ -172,7 +172,7 @@ html, body {
 .s-contact form button.s-btn.s-btn--primary {
   background-color: #083f88; /* Cor do botão da imagem */
   color: #fff;
-  padding: 0 15px; /* Reduzido ainda mais */
+  padding: 10 20px; /* Reduzido ainda mais */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -183,13 +183,13 @@ html, body {
 /* Ajuste para telas menores */
 @media (max-width: 768px) {
   .s-contact form {
-      padding: 8px; /* Reduzido ainda mais */
+      padding: 15px; /* Reduzido ainda mais */
   }
 }
 
 .s-contact label {
   font-weight: 600;
-  margin-bottom: 5px; /* Reduzido ainda mais */
+  margin-bottom: 8px; /* Reduzido ainda mais */
   color: #333;
   
 }
@@ -197,10 +197,10 @@ html, body {
 .s-contact input,
 .s-contact textarea {
   font-size: 16px; /* Mantido o tamanho original */
-  padding: 5px; /* Reduzido ainda mais */
+  padding: 10px; /* Reduzido ainda mais */
   border-radius: 10px;
   border: 1px solid #ccc;
-  margin-bottom: 10px; /* Reduzido ainda mais */
+  margin-bottom: 15px; /* Reduzido ainda mais */
   transition: border-color 0.3s;
   width: 100%;
   box-sizing: border-box;
@@ -216,9 +216,9 @@ html, body {
 
 
 .s-contact button.s-btn--primary {
-  padding: 0 6px; /* Reduzido ainda mais */
+  padding: 10 20px; /* Reduzido ainda mais */
   font-size: 16px; /* Mantido o tamanho original */
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #083f88;
   color: #fff;
   border: none;
@@ -232,8 +232,8 @@ html, body {
 }
 
 .form-message {
-  margin-bottom: 8px; /* Reduzido ainda mais */
-  padding: 6px; /* Reduzido ainda mais */
+  margin-bottom: 15px; /* Reduzido ainda mais */
+  padding: 10px; /* Reduzido ainda mais */
   border-radius: 5px;
   display: none;
   font-size: 14px; /* Mantido o tamanho original */
